@@ -23,4 +23,4 @@ else:
     print("maa koodi on virhe")
 
 cursor.close()
-conn.close()u
+conn.close()

@@ -19,7 +19,9 @@ class Auto:
     def kulje(self, t):
         self.kuljettu_matka += self.nopeus * t
 
+
 autot = []
+
 for i in range(1, 11):
     rekisteri = f"ABC-{i}"
     huippu = random.randint(100, 200)
