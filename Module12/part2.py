@@ -5,6 +5,7 @@ city_name = input("Type city name: => ")
 
 url = f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_KEY}"
 
+
 response = requests.get(url)
 
 if response.status_code == 200:
